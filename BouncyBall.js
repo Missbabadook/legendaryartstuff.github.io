@@ -164,7 +164,7 @@
   </head>
   <body>
     <script src="sketch.js"></script>
-    <script src="ball.js"></script>
+    <script src="BouncyBall.js"></script>
 
 
 

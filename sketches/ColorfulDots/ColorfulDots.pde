@@ -16,7 +16,7 @@ color[] colArray = {
 
 void setup()  {
   size(900, 900);
-  surface.setLocation(987, 70);
+  //surface.setLocation(987, 70);
   //noLoop();
   noStroke();
   mouseX = 10;

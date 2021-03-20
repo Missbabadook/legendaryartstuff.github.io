@@ -6,10 +6,10 @@
 
 int colArrayCounter;
 color[] colArray = {
-  color(25, 165, 190),
-  color(95, 170, 200),
-  color(120, 190, 210),
-  color(170, 210, 230),
+  color(25, 50, 75),
+  color(95, 160, 180),
+  color(200, 190, 255),
+  color(170, 150, 230),
   color(205, 225, 245),
   color(220, 240, 250)
 };
@@ -55,7 +55,7 @@ translate(width/2, height/2);
 
 
 void keyPressed()  {
-  if(key==' ')  {
+  if(key=='w')  {
     background(#282828);
     redraw();
   }

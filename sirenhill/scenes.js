@@ -26,6 +26,9 @@ let click1;
 ////////////////////////////// 1 /////////////////
 function intro()  {
 
+
+
+
     this.setup = function() {
       console.log("We are at setup for scene1");
       // do all stuff you want to initialize things,
@@ -66,8 +69,7 @@ fog = 0;
     }
 
 
-    this.draw = function()
-    {
+    this.draw = function()  {
         //background(0,0,255-loy);
         image(img6A,0,0,width,height);
 
@@ -131,13 +133,7 @@ function main()  {
       background(0);
       console.log("We are at setup for scene2");
       for (let i = 0; i < numBalls; i++) {
-    balls[i] = new Ball(
-      random(width),
-      random(height),
-      random(5, 10),
-      i,
-      balls
-    );
+    balls[i] = new Ball(  random(width), random(height), random(5, 10), i,balls);
   }
       //octo1 = new Octopi(width/2-100,height/2-100,color(0,0,0),.20);
   }
